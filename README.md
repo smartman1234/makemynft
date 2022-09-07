@@ -1,6 +1,6 @@
 # Make My NFT
 
-### Page 1 - Login
+### Page 1 - Login Page
 
 ![page1](https://user-images.githubusercontent.com/64327599/188892543-10d13954-e85d-4feb-98b2-aea1f2b2b924.png)
 
