@@ -1,13 +1,46 @@
-# Make My NFT
+# Moments.NFT
 
-### Page 1 - Login Page
+### Mint your favourite moments to make them eternal 
 
-![page1](https://user-images.githubusercontent.com/64327599/188892543-10d13954-e85d-4feb-98b2-aea1f2b2b924.png)
+<p><i><b>Get Started </b> - Login using MetaMask</i></p>
 
-### Page 2 - Minting Metadata with live contract address
+![homescreen](https://user-images.githubusercontent.com/64327599/189872456-cf98719f-1f4b-42fb-b7f8-e2ba0671985b.png)
 
-![page 2](https://user-images.githubusercontent.com/64327599/188892551-8763129b-86b0-478e-ae5a-86ad2a0ffacf.PNG)
+<p><i><b>Create NFT</b> - Edit NFT template (Change image, Modify Title/Description/Date)</i></p>
 
-### Page 3 - Minted NFT on OpenSea
+![create-nft](https://user-images.githubusercontent.com/64327599/189872497-1d0b80c4-fec5-49cd-af48-c08e353a0bf2.png)
 
-![page3](https://user-images.githubusercontent.com/64327599/188893340-5469bf70-86b2-4361-9aaf-5428486df369.png)
+<p><i><b>Mint NFT</b> - NFT gets downloaded in previous step. Upload it here and edit info for OpenSea</i></p>
+
+![mint-nft](https://user-images.githubusercontent.com/64327599/189872518-9965393d-da42-47e8-af04-4cf402e03086.png)
+
+<p><i><b>Success</b> - On successful minting, you'll get redirected to success page with link to view <b>moment</b> in OpenSea</i></p>
+
+![success](https://user-images.githubusercontent.com/64327599/189872543-5d3e1344-86fb-43c3-859a-785acbfadb49.png)
+
+<p><i><b>NFT in OpenSea</b> - You can view the minted NFT in OpenSea</i></p>
+
+![opensea result](https://user-images.githubusercontent.com/64327599/189872576-301f21cd-ce35-4f30-a206-db15330faf86.png)
+
+
+<br/>
+
+## Development
+
+### Prerequisite
+1. Make sure you have Node.js version >= 13.
+
+### Install
+Clone the repository into your system and open the directory and run this command to install all dependencies
+
+```
+npm i next
+npm i
+```
+
+ 
+### Start
+
+```
+npm run dev
+```
