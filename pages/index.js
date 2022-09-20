@@ -17,8 +17,7 @@ export default function Home() {
   //In case of Login
   const signInFunction = (e) => {
     e.preventDefault();
-    authenticate();
-
+    authenticate({signingMessage:"Signin — Moments.NFT"});
     setLoading(true);
   }
   const router = useRouter();
