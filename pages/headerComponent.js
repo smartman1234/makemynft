@@ -12,6 +12,11 @@ export default function Header({ data }) {
 
     const router = useRouter();
 
+    const signin = (e) => {
+        e.preventDefault();
+        authenticate({signingMessage:"Signin — Moments.NFT"});
+    }
+    
     useEffect(() => {
         if (isAuthenticated && data!="logout") {
             router.push('/createnft')
@@ -39,7 +44,7 @@ export default function Header({ data }) {
                             data === "logout" ?
                             <button onClick={logout} className="text-md font-bold text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-cyan-400 ">Logout</button>
                             :
-                        <button onClick={authenticate} className="text-md font-bold text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-cyan-400 ">Mint NFT</button>
+                        <button onClick={(e) => signin(e)} className="text-md font-bold text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-cyan-400 ">Mint NFT</button>
                         }
                     </div>
                 </div>
