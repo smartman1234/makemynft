@@ -40,7 +40,7 @@ export default function Home() {
 
       <Header />
       <h1 className="text-center mt-24 mb-6 font-bold text-gray-900 dark:text-white md:text-5xl lg:text-4xl">Make <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-cyan-400">NFT</span> of your favourite moments</h1>
-      <p className="text-center text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8"><b>425+</b>moments minted and still counting</p>
+      <p className="text-center text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-8"><b>20+</b>moments minted and still counting</p>
 
       <div className='flex items-center justify-center'>
 
