@@ -73,12 +73,12 @@ function createnft() {
     }, [downloadState]);
 
     //Redirect to homepage if not authenticated
-    useEffect(() => {
-        if (!isAuthenticated) {
-            router.push('/');
-        }
+//     useEffect(() => {
+//         if (!isAuthenticated) {
+//             router.push('/');
+//         }
 
-    }, [isAuthenticated, loading]);
+//     }, [isAuthenticated, loading]);
 
     //TextArea Auto-adjust Function
     function handleKeyDown(e) {
