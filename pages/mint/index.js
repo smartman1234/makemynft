@@ -76,11 +76,11 @@ function mint() {
 
     }
 
-    useEffect(() => {
-        if (!isAuthenticated) {
-            router.push('/');
-        }
-    }, [isAuthenticated, show, loading]);
+//     useEffect(() => {
+//         if (!isAuthenticated) {
+//             router.push('/');
+//         }
+//     }, [isAuthenticated, show, loading]);
 
     const onSubmit = async (e) => {
         e.preventDefault();
